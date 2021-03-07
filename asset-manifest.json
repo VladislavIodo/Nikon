@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Nikon/static/css/main.8d1c76e9.chunk.css",
+    "main.js": "/Nikon/static/js/main.4ddd4504.chunk.js",
+    "main.js.map": "/Nikon/static/js/main.4ddd4504.chunk.js.map",
+    "runtime-main.js": "/Nikon/static/js/runtime-main.ce0d363d.js",
+    "runtime-main.js.map": "/Nikon/static/js/runtime-main.ce0d363d.js.map",
+    "static/js/2.4d9f2935.chunk.js": "/Nikon/static/js/2.4d9f2935.chunk.js",
+    "static/js/2.4d9f2935.chunk.js.map": "/Nikon/static/js/2.4d9f2935.chunk.js.map",
+    "static/js/3.a9fb5c0a.chunk.js": "/Nikon/static/js/3.a9fb5c0a.chunk.js",
+    "static/js/3.a9fb5c0a.chunk.js.map": "/Nikon/static/js/3.a9fb5c0a.chunk.js.map",
+    "index.html": "/Nikon/index.html",
+    "static/css/main.8d1c76e9.chunk.css.map": "/Nikon/static/css/main.8d1c76e9.chunk.css.map",
+    "static/js/2.4d9f2935.chunk.js.LICENSE.txt": "/Nikon/static/js/2.4d9f2935.chunk.js.LICENSE.txt",
+    "static/media/ellipsis-v-solid.d529b620.svg": "/Nikon/static/media/ellipsis-v-solid.d529b620.svg",
+    "static/media/times-circle-regular.0f761569.svg": "/Nikon/static/media/times-circle-regular.0f761569.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce0d363d.js",
+    "static/js/2.4d9f2935.chunk.js",
+    "static/css/main.8d1c76e9.chunk.css",
+    "static/js/main.4ddd4504.chunk.js"
+  ]
+}

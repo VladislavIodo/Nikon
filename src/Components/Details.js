@@ -1,6 +1,9 @@
 import React, {useContext, useState} from 'react';
 import {useParams} from "react-router-dom";
 import {DataContext} from "./DataProvider";
+import Colors from "./Colors";
+import Sizes from "./Sizes";
+import DetailsThumb from "./DetailsThumb";
 
 
 export default function Details() {
@@ -23,29 +26,13 @@ export default function Details() {
                         <div className="box-details">
                             <h2 title={product.title}>{product.title}</h2>
                             <h3>{product.price}</h3>
-                            <div className="colors">
-                                {
-                                    product.colors.map((color, index) => (
-                                        <button key={index} style={{background: color}}></button>
-                                    ))
-                                }
-                            </div>
-                            <div className="sizes">
-                                {
-                                    product.sizes.map((size, index) => (
-                                        <button key={index}>{size}</button>
-                                    ))
-                                }
-                            </div>
+
+                            <Colors colors={product.colors}/>                      //компонента с цветами часов
+
+                            <Sizes sizes={product.sizes}/>                         //компонента с размерами часов
                             <p>{product.description}</p>
                             <p>{product.content}</p>
-                            <div className="thumb">
-                                {
-                                    product.images.map((img, index) => (
-                                        <img src={img} alt="" key={index} />
-                                    ))
-                                }
-                            </div>
+                            <DetailsThumb images={product.images} />
                             <button className="cart">Add to cart</button>
                         </div>
 
